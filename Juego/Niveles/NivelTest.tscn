@@ -7,8 +7,12 @@
 [node name="Player" parent="." instance=ExtResource( 1 )]
 position = Vector2( 489, 115 )
 gravity_scale = 0.0
+potencia_motor = 20
+potencia_rotacion = 280
 
 [node name="Player2" parent="." instance=ExtResource( 1 )]
 position = Vector2( 502, 305 )
 mode = 1
 gravity_scale = 0.0
+potencia_motor = 20
+potencia_rotacion = 280
