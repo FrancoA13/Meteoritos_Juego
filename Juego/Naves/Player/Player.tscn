@@ -23,11 +23,12 @@ texture = ExtResource( 1 )
 shape = SubResource( 1 )
 
 [node name="Canion" parent="." instance=ExtResource( 4 )]
+position = Vector2( -1.124, 0 )
 
 [node name="PuntoIzquierdo" parent="Canion" index="0"]
-position = Vector2( 3, -33 )
+position = Vector2( 0, -33 )
 
 [node name="PuntoDerecho" parent="Canion" index="1"]
-position = Vector2( 3, 33 )
+position = Vector2( 0, 33 )
 
 [editable path="Canion"]
